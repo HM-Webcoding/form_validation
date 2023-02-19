@@ -1,0 +1,66 @@
+ul, li{
+    list-style-type: none;
+}
+.registration_form{
+    background: linear-gradient(123.53deg, #E2E8EC 0%, #FFFFFF 100%);
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #FFFFFF;
+    border-radius: 5px;
+    width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.input__control label{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.registration_form input, select{
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: 0;
+    border: 1px solid #C1C1C1;
+    margin: 15px 0;
+}
+.registration_form input::placeholder{
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+.input__control{
+    position: relative;
+}
+.input__control i{
+    visibility: hidden;
+}
+.success .success_icon{
+    color: #49AF41;
+    bottom: 50px;
+    position: absolute;
+    right: 10px;
+    visibility: visible;
+}
+.error .error_icon{
+    color: #D11414;
+    bottom: 60px;
+    position: absolute;
+    right: 10px;
+    visibility: visible;
+}
+.error .error_message {
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    color: #D11414;
+    margin: 0 0 10px 0;
+    display: inline-block;
+}
+.btn{
+    background: #D11414;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
